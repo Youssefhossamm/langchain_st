@@ -1,12 +1,16 @@
 # LangChain Streamlit Demo
 
-A simple Streamlit application that uses LangChain and OpenAI to answer questions.
+An enhanced Streamlit application that uses LangChain and OpenAI for interactive AI conversations.
 
 ## Features
 
-- Interactive Q&A interface using OpenAI's GPT-4o model
-- Secure API key input via Streamlit sidebar
-- Built with LangChain for easy LLM integration
+- 💬 **Chat Interface**: Full conversation history with chat-style UI
+- 🤖 **Multiple Models**: Support for GPT-4o, GPT-4o-mini, GPT-4-turbo, and GPT-3.5-turbo
+- ⚙️ **Customizable**: Adjustable temperature for response creativity
+- 🔐 **Secure**: API key input with environment variable support
+- 💾 **Session Memory**: Maintains conversation context throughout the session
+- 🎨 **Modern UI**: Clean, user-friendly interface with emojis and better UX
+- ⚡ **Error Handling**: Robust error handling and user feedback
 
 ## Setup
 
@@ -31,9 +35,27 @@ A simple Streamlit application that uses LangChain and OpenAI to answer question
    streamlit run streamlit_demo.py
    ```
 
-2. Enter your OpenAI API key in the sidebar
+2. Enter your OpenAI API key in the sidebar (or set `OPENAI_API_KEY` environment variable)
 
-3. Ask any question in the input field
+3. Select your preferred model and adjust temperature if needed
+
+4. Start chatting! Your conversation history will be maintained during the session
+
+## Deployment
+
+This app can be deployed on **Streamlit Community Cloud** (free):
+- Connect your GitHub repository
+- Deploy automatically on every push
+- Share the public URL with anyone
+- **Completely free** for public and private apps
+
+## Environment Variables
+
+You can set your API key as an environment variable:
+```bash
+export OPENAI_API_KEY="your-api-key-here"  # Linux/Mac
+set OPENAI_API_KEY=your-api-key-here       # Windows
+```
 
 ## Requirements
 
