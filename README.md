@@ -2,6 +2,12 @@
 
 An enhanced Streamlit application that uses LangChain and OpenAI for interactive AI conversations.
 
+## 🚀 Live Demo
+
+**[Try it live here →](https://joeest.streamlit.app/)**
+
+> 💡 **Note**: You'll need your own OpenAI API key to use the app. Enter it in the sidebar when you visit the link.
+
 ## Features
 
 - 💬 **Chat Interface**: Full conversation history with chat-style UI
@@ -43,7 +49,9 @@ An enhanced Streamlit application that uses LangChain and OpenAI for interactive
 
 ## Deployment
 
-This app can be deployed on **Streamlit Community Cloud** (free):
+**Live App**: [https://joeest.streamlit.app/](https://joeest.streamlit.app/)
+
+This app is deployed on **Streamlit Community Cloud** (free):
 - Connect your GitHub repository
 - Deploy automatically on every push
 - Share the public URL with anyone
